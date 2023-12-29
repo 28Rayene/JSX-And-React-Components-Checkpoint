@@ -193,3 +193,9 @@ body {
     transform: translateY(0px);
     transition-delay: .7s;
 }
+.last{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}

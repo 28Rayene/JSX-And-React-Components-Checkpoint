@@ -11,6 +11,8 @@ const firstName = "Rayen";
 
 const App = () => {
   return (
+    <div>
+        
     <div class="container">
     <div class="card">
         <div class="imgBx">
@@ -41,7 +43,19 @@ const App = () => {
         </div>
 
     </div>
+    
+    <div className="last">
+
+    
+    <p style={{alignContent:"center",justifyContent:"center"}}>Hello, {firstName ? firstName : "there"}!</p>
+      {firstName && <img style={{width:"100px"}} src="https://us-tuna-sounds-images.voicemod.net/f69d2df3-86ae-45bd-ba11-52a4c7affca0-1673980665254.jpeg" alt="User" />}
+      </div>
+    
+    
 </div>
+
+</div>
+
 
   );
 };
